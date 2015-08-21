@@ -1,4 +1,3 @@
-#create the 2 dictionaries
 from string import capwords
 import csv
 
@@ -224,7 +223,7 @@ def main():
     ratings_DB = create_ratings_DB('moviescores.csv')
 
     menu = '''
-=========== MAIN MENU ===========
+=========== MAIN MENU OF MOVIE TRIVIA ===========
 1. Given an actor's name, find all the actors with whom he/she has acted
 2. Find out the movies in which both actors are present
 3. Actor(s) with the highest avg critic rating score
@@ -233,15 +232,15 @@ def main():
 6. Find all the actors that acted in a pair of movies
 7. Get an actor's Bacon number
 
-8. Update actor/movies info
-9. Update movie/ratings info
+8.  Update actor/movies info
+9.  Update movie/ratings info
 10. Delete all the info that corresponds to a movie
 11. View the list of all movies an actor acted in
 12. View the list of actors that acted in a movie
 13. Movie filter
 14. Quit
 
-What would you do? '''
+What would you like to do? '''
 
     shouldContinue = ''
     menuSelection = ''
